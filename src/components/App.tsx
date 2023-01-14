@@ -1,9 +1,15 @@
 import React from 'react';
+import Header from '@layout/Header/Header';
+import Footer from '@layout/Footer/Footer';
 
 function App() {
   return (
     <div className="app">
-      Hello world!
+      <Header />
+      <div className="app__content container">
+        Hello world!
+      </div>
+      <Footer />
     </div>
   );
 }
