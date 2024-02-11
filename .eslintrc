@@ -1,9 +1,0 @@
-{
-  "extends": ["airbnb", "airbnb/hooks", "airbnb-typescript"],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
-  "rules": {
-    "linebreak-style": 0
-  }
-}
